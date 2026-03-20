@@ -3,7 +3,7 @@ name: ad-brief
 description: >
     Builds an ad brief for any platform. Researches the user's product, audience, market,
     and KPIs proactively, then asks the user to confirm and fill gaps. Saves the result
-    as ad-brief.md for future sessions.
+    as .agents/ad-brief.md for future sessions.
 ---
 
 # Ad Brief
@@ -17,7 +17,7 @@ This process is the same regardless of ad platform. Run it before any campaign w
 
 ## Check for existing brief
 
-**First, check if `ad-brief.md` exists** in the user's project. If it does, read it and skip this process.
+**First, check if `.agents/ad-brief.md` exists** in the user's project. If it does, read it and skip this process.
 
 If not, build one using the template at `template.md`. Two phases:
 
@@ -31,4 +31,4 @@ If not, build one using the template at `template.md`. Two phases:
 
 1. Present your filled brief to the user: "Here's what I found. Correct anything that's wrong and fill in what's missing."
 2. For any remaining gaps, ask **one at a time** using `AskUserQuestion` / `ask_user_question`
-3. Save the result as `ad-brief.md` in the user's project root. This persists for future sessions.
+3. Save the result as `.agents/ad-brief.md` in the user's project root. This persists for future sessions.
