@@ -23,6 +23,7 @@ Before anything else, read and follow `../ad-brief/SKILL.md` to build the ad bri
 4. **The Pixel is critical.** It feeds conversion data back to Meta, improving optimization. More data = lower costs. Install it before running any ads.
 5. **Start low, scale slowly.** New accounts: $2-5/day. Scale 10-20% every 48 hours. Large initial spend triggers fraud detection and bans.
 6. **Buying data, not sales.** Every dollar returns information about what works. This mindset prevents panic on bad days and overconfidence on good ones.
+7. **Conversions objective, always.** Use the Conversions objective (or App Installs / Leads for those specific cases) in 90% of campaigns. Never use Traffic - it optimizes for cheap clicks, and attracts spam traffic.
 
 ## When to load which guide
 
@@ -37,7 +38,7 @@ Read the user's situation, then load **only** the relevant guide:
 | "I'm ready to launch" / campaign structure / targeting / budget | `launching-campaigns.md` |
 | "My ads aren't working" / metrics / ROAS / scaling              | `analyzing-results.md`   |
 
-**Don't load all guides at once.** Start with the one matching the user's immediate need. Load additional guides only when the conversation moves to a new phase.
+**Don't load all guides at once.** Start with the one matching the user's immediate need. Load additional guides only when the conversation moves to a new phase. Preserve context window at all costs.
 
 ## Typical workflows
 
