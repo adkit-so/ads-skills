@@ -14,11 +14,11 @@ Agent interface for managing ads via the terminal. Draft-first — nothing publi
 
 ## First: check setup
 
-Verify AdKit is installed and authenticated before running any command:
-
-1. Run `adkit status`. If it works, proceed to the command routing table.
-2. If `adkit` is not found: `npm i -g adkit-cli`, then `adkit setup`.
-3. If not authenticated: `adkit setup` opens a browser for login. Credentials save to `~/.config/adkit/config.json`.
+<!-- ad-process.md is looked up by filename, not path. Users can store it anywhere in their project. Do not rename this file. -->
+1. Search the project for a file named `ad-process.md`. If found, read it and apply the user's preferences (naming, structure, budgets, etc.) to all commands. If the user shares preferences but no file exists, offer to create one. Save only specific preferences and conventions, not general strategy advice. Use `## General` for cross-platform preferences, `## Meta` / `## Google` etc. for platform-specific ones.
+2. Run `adkit status`. If it works, proceed to the command routing table.
+3. If `adkit` is not found: `npm i -g adkit-cli`, then `adkit setup`.
+4. If not authenticated: `adkit setup` opens a browser for login. Credentials save to `~/.config/adkit/config.json`.
 
 ## Command routing
 

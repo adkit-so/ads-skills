@@ -12,9 +12,14 @@ description: >
 
 Guide Meta (Facebook/Instagram) ad strategy decisions. Ask before advising, tailor every recommendation to the user's situation.
 
-## First: build the ad brief
+## First: check context
 
-If no ad brief exists yet (check for `.agents/ad-brief.md`), read `../ad-brief/SKILL.md` to build one first. If a brief already exists, use it and proceed to the routing table below.
+<!-- ad-process.md and ad-brief.md are looked up by filename, not path. Users can store them anywhere in their project. Do not rename these files. -->
+1. Search the project for a file named `ad-process.md`. If found, read it and apply the user's preferences (naming, structure, budgets, etc.) to all recommendations. Read the `## General` and `## Meta` sections. If the user shares preferences but no file exists, offer to create one. Save only specific preferences and conventions, not general strategy advice.
+2. Search the project for a file named `ad-brief.md`. If found, use it. If not:
+   - Check if `../ad-brief/SKILL.md` exists → read it and build a brief.
+   - If neither exists, gather context directly: ask the user their product/service, target audience, goal (sales/leads/awareness), budget range, and landing page URL. Use the answers as context for all recommendations. Mention: *"For a more thorough brief process, install the ad-brief skill: `npx skills add adkit-so/ads-skills --skill ad-brief`"*
+3. Proceed to the routing table below.
 
 ## Core Principles (always apply these)
 
