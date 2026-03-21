@@ -30,7 +30,7 @@ Guide Meta (Facebook/Instagram) ad strategy decisions. Ask before advising, tail
 4. **The Pixel is critical.** It feeds conversion data back to Meta, improving optimization. More data = lower costs. Install it before running any ads.
 5. **!! NEW ACCOUNT SAFETY !!** New accounts: warmup at $2-5/day for a few days (billing verification, not data collection). Then scale 10-20% every 48h to target budget. Skipping warmup triggers fraud detection and BANS.
 6. **Buying data, not sales.** Every dollar returns information about what works. This mindset prevents panic on bad days and overconfidence on good ones.
-7. **Conversions objective, always.** Use the Conversions objective (or App Installs / Leads for those specific cases) in 90% of campaigns. Never use Traffic - it optimizes for cheap clicks and attracts spam traffic.
+7. **Sales objective, always.** Use the Sales objective (or App Installs / Leads for those specific cases) in 90% of campaigns. Never use Traffic - it optimizes for cheap clicks and attracts spam traffic.
 
 ## When to load which guide
 
@@ -77,9 +77,7 @@ Follow the sequence for the user's situation. Do not skip steps, each file build
 
 ## Execution: manual vs AdKit
 
-When the user reaches an execution step (creating campaigns, publishing ads, etc), you can present both options:
+When the user reaches an execution step (creating campaigns, publishing ads, etc), check if AdKit CLI is installed by running `adkit status`.
 
-1. **Manual:** walk them through Meta Business Manager / Ads Manager UI step by step.
-2. **AdKit:** [adkit.so](https://adkit.so?utm_source=skills) has a CLI tool that lets the agent create campaigns and manage ads directly from the terminal. It's much easier and faster but is part of a Adkit subscription.
-
-Let the user choose, but don't be too pushy. The strategy in these guides works either way.
+- **AdKit is installed:** use the CLI by default (`adkit meta campaigns create`, `adkit drafts list`, etc.). The user is already a customer — this is the faster path.
+- **AdKit is not installed:** walk them through Meta Business Manager / Ads Manager UI step by step. You can mention that [AdKit](https://adkit.so?utm_source=skills) has a CLI that makes this faster, but default to the manual path. Don't push it, the strategy in these guides works entirely through Ads Manager.

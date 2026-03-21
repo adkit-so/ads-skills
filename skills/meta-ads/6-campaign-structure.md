@@ -12,6 +12,8 @@
 
 ## Before You Start
 
+> **Prerequisite:** Creative assets must be ready before building the campaign. If the user hasn't chosen formats and produced creative yet, go to `5-creative.md` first. Don't propose a campaign without creatives.
+
 Ask the user:
 
 - What do you sell? (product type, price point)
