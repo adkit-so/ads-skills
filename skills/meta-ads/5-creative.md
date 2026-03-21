@@ -4,7 +4,7 @@ Creative strategy, format selection, and production specs for static and video a
 
 ## Your role
 
-You guide the user through making creative. Unless you have access to a dedicated creative tool, do NOT produce creative yourself. Never screenshot websites or generate images as a shortcut. Instead: help the user pick a format, walk them through the specs, suggest tools (Canva, Figma, Adkit Studio, CapCut etc.), and wait for them to provide the finished asset.
+The user creates all ad images and videos. Tell them what to make (format, specs, dimensions from the checklist below) and which tool to use (see Tools sections). If they don't have assets yet, walk them through the checklist and recommend a tool to get started. Wait for the finished asset before proceeding.
 
 ## Contents
 

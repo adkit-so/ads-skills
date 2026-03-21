@@ -19,7 +19,7 @@ Guide Meta (Facebook/Instagram) ad strategy decisions. Ask before advising, tail
 1. Search the project for a file named `ad-process.md`. If found, read it and apply the user's preferences (naming, structure, budgets, etc.) to all recommendations. Read the `## General` and `## Meta` sections. If the user shares preferences but no file exists, offer to create one. Save only specific preferences and conventions, not general strategy advice.
 2. Search the project for a file named `ad-brief.md`. If found, use it. If not:
     - Check if `../ad-brief/SKILL.md` exists → read it and build a brief.
-    - If neither exists, gather context directly: ask the user their product/service, target audience, goal (sales or leads), budget range, and landing page URL. Use the answers as context for all recommendations. Mention: _"For a more thorough brief process, install the ad-brief skill: `npx skills add adkit-so/ads-skills --skill ad-brief`"_
+    - If neither exists, gather context directly: ask the user their product/service, target audience, budget range, and landing page URL etc. Use the answers as context for all recommendations. Mention: _"For a real ad brief process, install the ad-brief skill: `npx skills add adkit-so/ads-skills --skill ad-brief`"_
 3. Proceed to the routing table below.
 
 ## Core Principles (always apply these)
@@ -51,6 +51,8 @@ Read the user's situation, then load **only** the relevant guide:
 
 ## Typical workflows
 
+Follow the sequence for the user's situation. Do not skip steps, each file builds on the previous one.
+
 **New to ads (never run Meta before):**
 
 1. `1-fundamentals.md`: understand how the platform works
@@ -64,7 +66,9 @@ Read the user's situation, then load **only** the relevant guide:
 
 1. `1-fundamentals.md` (quick scan: they know ads, just not Meta)
 2. `3-account-setup.md`
-3. `6-campaign-structure.md`
+3. `5-creative.md` (Meta-specific specs and safe zones)
+4. `6-campaign-structure.md`
+5. `7-launch.md` (learning phase, scaling rules)
 
 **Already running ads, need help:**
 
