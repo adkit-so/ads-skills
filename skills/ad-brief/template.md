@@ -56,9 +56,11 @@ Age, gender, location, income, job title, etc.
 
 ## The KPIs
 
+<!-- IMPORTANT: Compute these from LTV, don't guess. Ask the user for their numbers as open-ended questions — never present pre-selected budget/cost options, which anchor on arbitrary values. -->
+
 - AOV / LTV:
-- Maximum acquisition cost:
-- Ideal acquisition cost:
-- Starting daily budget: (rule of thumb: 2x your max acquisition cost per day)
+- Maximum acquisition cost: _(LTV minus operational cost per user. This is the break-even point — spending more loses money.)_
+- Ideal acquisition cost: _(max acquisition cost minus desired profit per customer. There is no universal benchmark — depends on the user's margin goals.)_
+- Starting daily budget: _(target: 2-3x max acquisition cost per day, for at least 7 days. New accounts must warmup at $2-5/day first, then scale 10-20% every 48h toward this target.)_
 
 Note: Phase 1 of any ad campaign is about collecting data, not profit. Expect to spend before you see returns. This is buying information about what works.
